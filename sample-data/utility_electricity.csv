@@ -1,0 +1,7 @@
+Meter ID,Billing Period,Consumption,Unit,Tariff Type
+MTR-US-891,2026-04-01 to 2026-04-30,4500.25,kWh,Commercial Peak
+MTR-DE-102,2026-04-15 to 2026-05-15,12.50,MWh,Standard Off-peak
+MTR-IN-332,2026-04-01 to 2026-04-30,-250.00,kWh,Industrial
+,2026-04-01 to 2026-04-30,1200.00,kWh,Residential
+MTR-US-554,,800.00,kWh,Commercial
+MTR-FR-771,2026-04-01 to 2026-04-30,invalid_num,kWh,Standard

@@ -1,0 +1,8 @@
+Employee Name,Travel Type,From Airport,To Airport,Distance,Hotel Nights
+John Doe,Flight,JFK,LAX,2475.00,
+Alice Smith,Hotel,,,4.00
+Bob Jones,Ground Transport,,,125.00,
+Charlie Brown,Flight,,,500.00,
+David Miller,Hotel,,,0.00
+Emma Watson,,LHR,CDG,216.00,
+Frank Castle,Ground Transport,,,0.00,
