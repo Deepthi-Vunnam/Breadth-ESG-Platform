@@ -19,12 +19,12 @@ function App() {
           <Route path="/login" element={<Login />} />
 
           {/* Secure Analyst Console */}
-          <Route element={<ProtectedRoute />}>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/upload" element={<UploadPage />} />
-            <Route path="/review" element={<ReviewPage />} />
-            <Route path="/audit" element={<AuditLogsPage />} />
-          </Route>
+          <Route path="/" element={<ProtectedRoute />}>
+  <Route index element={<Dashboard />} />
+  <Route path="upload" element={<UploadPage />} />
+  <Route path="review" element={<ReviewPage />} />
+  <Route path="audit" element={<AuditLogsPage />} />
+</Route>
 
           {/* Catch-all Redirect */}
           <Route path="*" element={<Navigate to="/" replace />} />
